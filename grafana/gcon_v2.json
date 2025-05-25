@@ -91,7 +91,7 @@
                   "showLineNumbers": false,
                   "showMiniMap": false
                 },
-                "content": "\u003cimg src=\"https://raw.githubusercontent.com/dprokop/gcon-dashboards/refs/heads/main/images/grafanactl.png\" /\u003e",
+                "content": "\u003cimg src=\"https://raw.githubusercontent.com/grafana/gitsync-example-B/refs/heads/main/images/grafanactl.png\" /\u003e",
                 "mode": "html"
               },
               "pluginVersion": "12.1.0-pre"
@@ -165,7 +165,7 @@
                   "showLineNumbers": false,
                   "showMiniMap": false
                 },
-                "content": "\u003cimg src=\"https://raw.githubusercontent.com/dprokop/gcon-dashboards/refs/heads/main/images/foundation.png\" /\u003e",
+                "content": "\u003cimg src=\"https://raw.githubusercontent.com/grafana/gitsync-example-B/refs/heads/main/images/foundation.png\" /\u003e",
                 "mode": "html"
               },
               "pluginVersion": "12.1.0-pre"
@@ -239,7 +239,7 @@
                   "showLineNumbers": false,
                   "showMiniMap": false
                 },
-                "content": "\u003ccenter\u003e\u003cimg src=\"https://raw.githubusercontent.com/dprokop/gcon-dashboards/refs/heads/main/images/pattern.png\" width=\"80%\"  /\u003e\u003c/center\u003e",
+                "content": "\u003ccenter\u003e\u003cimg src=\"https://raw.githubusercontent.com/grafana/gitsync-example-B/refs/heads/main/images/pattern.png\" width=\"80%\"  /\u003e\u003c/center\u003e",
                 "mode": "html"
               },
               "pluginVersion": "12.1.0-pre"
@@ -350,7 +350,7 @@
                   "showLineNumbers": false,
                   "showMiniMap": false
                 },
-                "content": "\n    \u003cimg src=\"https://raw.githubusercontent.com/dprokop/gcon-dashboards/refs/heads/main/images/layoutpanels.png\" /\u003e\n",
+                "content": "\n    \u003cimg src=\"https://raw.githubusercontent.com/grafana/gitsync-example-B/refs/heads/main/images/layoutpanels.png\" /\u003e\n",
                 "mode": "html"
               },
               "pluginVersion": "12.1.0-pre"
@@ -498,7 +498,7 @@
                   "showLineNumbers": false,
                   "showMiniMap": false
                 },
-                "content": "\u003cdiv style=\"display: flex; flex-direction: column; align-items: center; justify-content: center;\"\u003e\n    \u003cdiv\u003e\u003cimg src=\"https://raw.githubusercontent.com/dprokop/gcon-dashboards/refs/heads/main/images/panel.png\" /\u003e\u003c/div\u003e\n\u003c/div\u003e",
+                "content": "\u003cdiv style=\"display: flex; flex-direction: column; align-items: center; justify-content: center;\"\u003e\n    \u003cdiv\u003e\u003cimg src=\"https://raw.githubusercontent.com/grafana/gitsync-example-B/refs/heads/main/images/panel.png\" /\u003e\u003c/div\u003e\n\u003c/div\u003e",
                 "mode": "html"
               },
               "pluginVersion": "12.1.0-pre"
@@ -646,7 +646,7 @@
                   "showLineNumbers": false,
                   "showMiniMap": false
                 },
-                "content": "\u003ccenter\u003e\u003cimg src=\"https://raw.githubusercontent.com/dprokop/gcon-dashboards/refs/heads/main/images/diff.png\"/\u003e\u003c/center\u003e",
+                "content": "\u003ccenter\u003e\u003cimg src=\"https://raw.githubusercontent.com/grafana/gitsync-example-B/refs/heads/main/images/diff.png\"/\u003e\u003c/center\u003e",
                 "mode": "html"
               },
               "pluginVersion": "12.1.0-pre"
@@ -831,7 +831,7 @@
                   "showLineNumbers": false,
                   "showMiniMap": false
                 },
-                "content": "\u003ccenter\u003e\u003ca href=\"https://github.com/dprokop/gcon-dashboards/tree/main/grafana\" target=\"_blank\"\u003eApp platform resource examples\u003c/a\u003e\u003ccenter\u003e",
+                "content": "\u003ccenter\u003e\u003ca href=\"https://github.com/grafana/gitsync-example-B/tree/main/grafana\" target=\"_blank\"\u003eApp platform resource examples\u003c/a\u003e\u003ccenter\u003e",
                 "mode": "html"
               },
               "pluginVersion": "12.1.0-pre"
