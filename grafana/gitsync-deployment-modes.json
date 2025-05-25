@@ -36,8 +36,7 @@
                   "kind": "PanelQuery",
                   "spec": {
                     "datasource": {
-                      "type": "grafana-testdata-datasource",
-                      "uid": "${ds}"
+                      "type": "grafana-testdata-datasource"
                     },
                     "hidden": false,
                     "query": {
@@ -362,8 +361,7 @@
                   "kind": "PanelQuery",
                   "spec": {
                     "datasource": {
-                      "type": "grafana-testdata-datasource",
-                      "uid": "${ds}"
+                      "type": "grafana-testdata-datasource"
                     },
                     "hidden": false,
                     "query": {
@@ -760,8 +758,7 @@
                   "kind": "PanelQuery",
                   "spec": {
                     "datasource": {
-                      "type": "grafana-testdata-datasource",
-                      "uid": "${ds}"
+                      "type": "grafana-testdata-datasource"
                     },
                     "hidden": false,
                     "query": {
