@@ -128,7 +128,7 @@
                 "content": "\u003cbr /\u003e\u003cbr /\u003e\n\u003ch1 style=\"color: #F9A01B!important; font-weight: bold; font-size: 3rem; \"\u003eFoundation SDK\u003c/h1\u003e\u003c/strong\u003e\n\u003cbr /\u003e\n\u003ch2\u003eA set of libraries  for building and manipulating Grafana objects programmatically.\n\u003c/h2\u003e\n\u003cbr /\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ch3\u003eAPIs in Go, TS, Java, Python and PHP \u003c/h3\u003e\u003c/li\u003e\n\u003cli\u003e\u003ch3\u003eBuilt on top of Grafana provided schemas\u003c/h3\u003e\u003c/li\u003e\n\u003c/ul\u003e\n",
                 "mode": "markdown"
               },
-              "pluginVersion": "12.1.0-pre"
+              "pluginVersion": "12.0.1"
             }
           }
         }
@@ -164,7 +164,7 @@
                 "content": "\u003cimg src=\"https://raw.githubusercontent.com/grafana/gitsync-example-B/refs/heads/main/images/foundation.png\" /\u003e",
                 "mode": "html"
               },
-              "pluginVersion": "12.1.0-pre"
+              "pluginVersion": "12.0.1"
             }
           }
         }
@@ -200,7 +200,7 @@
                 "content": "#\n#\n# The pattern\n#### A common pattern to express significant parts of the dashboard schema\n",
                 "mode": "markdown"
               },
-              "pluginVersion": "12.1.0-pre"
+              "pluginVersion": "12.0.1"
             }
           }
         }
@@ -236,7 +236,7 @@
                 "content": "\u003ccenter\u003e\u003cimg src=\"https://raw.githubusercontent.com/grafana/gitsync-example-B/refs/heads/main/images/pattern.png\" width=\"80%\"  /\u003e\u003c/center\u003e",
                 "mode": "html"
               },
-              "pluginVersion": "12.1.0-pre"
+              "pluginVersion": "12.0.1"
             }
           }
         }
@@ -272,7 +272,7 @@
                 "content": "#\n#\n# Layout and panels\n#### Decoupling panel specification from layout models\n",
                 "mode": "markdown"
               },
-              "pluginVersion": "12.1.0-pre"
+              "pluginVersion": "12.0.1"
             }
           }
         }
@@ -308,7 +308,7 @@
                 "content": "{\n  \"kind\": \"Dashboard\",\n  \"spec\": {\n    \"elements\": {\n      \"my-stat\": {\n        \"kind\": \"Panel\",\n        \"spec\": {\n          \"data\": {\n            \"kind\": \"QueryGroup\",\n            \"spec\": {\n              \"queries\": [\n                {\n                  \"kind\": \"PanelQuery\",\n                  \"spec\": {\n                    \"hidden\": false,\n                    \"query\": {\n                      \"kind\": \"grafana-testdata-datasource\",\n                      \"spec\": {}\n                    },\n                    \"refId\": \"A\"\n                  }\n                }\n              ],\n              \"queryOptions\": {},\n              \"transformations\": []\n            }\n          },\n          \"description\": \"\",\n          \"id\": 1,\n          \"links\": [],\n          \"title\": \"Simple timeseries\",\n          \"vizConfig\": {\n            \"kind\": \"timeseries\",\n            \"spec\": {\n              \"fieldConfig\": {\n                \"defaults\": {\n                  \"color\": {\n                    \"mode\": \"palette-classic\"\n                  },\n                  \"custom\": {\n                    \"axisBorderShow\": false,\n                    \"axisCenteredZero\": false,\n                    \"axisColorMode\": \"text\",\n                    \"axisLabel\": \"\",\n                    \"axisPlacement\": \"auto\",\n                    \"barAlignment\": 0,\n                    \"barWidthFactor\": 0.6,\n                    \"drawStyle\": \"line\",\n                    \"fillOpacity\": 0,\n                    \"gradientMode\": \"none\",\n                    \"hideFrom\": {\n                      \"legend\": false,\n                      \"tooltip\": false,\n                      \"viz\": false\n                    },\n                    \"insertNulls\": false,\n                    \"lineInterpolation\": \"linear\",\n                    \"lineWidth\": 1,\n                    \"pointSize\": 5,\n                    \"scaleDistribution\": {\n                      \"type\": \"linear\"\n                    },\n                    \"showPoints\": \"auto\",\n                    \"spanNulls\": false,\n                    \"stacking\": {\n                      \"group\": \"A\",\n                      \"mode\": \"none\"\n                    },\n                    \"thresholdsStyle\": {\n                      \"mode\": \"off\"\n                    }\n                  },\n                  \"thresholds\": {\n                    \"mode\": \"absolute\",\n                    \"steps\": [\n                      {\n                        \"color\": \"green\"\n                      },\n                      {\n                        \"color\": \"red\",\n                        \"value\": 80\n                      }\n                    ]\n                  }\n                },\n                \"overrides\": []\n              },\n              \"options\": {\n                \"legend\": {\n                  \"calcs\": [],\n                  \"displayMode\": \"list\",\n                  \"placement\": \"bottom\",\n                  \"showLegend\": true\n                },\n                \"tooltip\": {\n                  \"hideZeros\": false,\n                  \"mode\": \"single\",\n                  \"sort\": \"none\"\n                }\n              },\n              \"pluginVersion\": \"12.1.0-pre\"\n            }\n          }\n        }\n      },\n      \"panel-2\": {\n        \"kind\": \"Panel\",\n        \"spec\": {\n          \"data\": {\n            \"kind\": \"QueryGroup\",\n            \"spec\": {\n              \"queries\": [\n                {\n                  \"kind\": \"PanelQuery\",\n                  \"spec\": {\n                    \"hidden\": false,\n                    \"query\": {\n                      \"kind\": \"grafana-testdata-datasource\",\n                      \"spec\": {}\n                    },\n                    \"refId\": \"A\"\n                  }\n                }\n              ],\n              \"queryOptions\": {},\n              \"transformations\": []\n            }\n          },\n          \"description\": \"\",\n          \"id\": 2,\n          \"links\": [],\n          \"title\": \"Simple stat\",\n          \"vizConfig\": {\n            \"kind\": \"stat\",\n            \"spec\": {\n              \"fieldConfig\": {\n                \"defaults\": {\n                  \"color\": {\n                    \"mode\": \"thresholds\"\n                  },\n                  \"thresholds\": {\n                    \"mode\": \"absolute\",\n                    \"steps\": [\n                      {\n                        \"color\": \"green\"\n                      },\n                      {\n                        \"color\": \"red\",\n                        \"value\": 80\n                      }\n                    ]\n                  }\n                },\n                \"overrides\": []\n              },\n              \"options\": {\n                \"colorMode\": \"value\",\n                \"graphMode\": \"area\",\n                \"justifyMode\": \"auto\",\n                \"orientation\": \"auto\",\n                \"percentChangeColorMode\": \"standard\",\n                \"reduceOptions\": {\n                  \"calcs\": [\n                    \"lastNotNull\"\n                  ],\n                  \"fields\": \"\",\n                  \"values\": false\n                },\n                \"showPercentChange\": false,\n                \"textMode\": \"auto\",\n                \"wideLayout\": true\n              },\n              \"pluginVersion\": \"12.1.0-pre\"\n            }\n          }\n        }\n      }\n    },\n    \"layout\": {\n      \"kind\": \"AutoGridLayout\",\n      \"spec\": {\n        \"items\": [\n          {\n            \"kind\": \"AutoGridLayoutItem\",\n            \"spec\": {\n              \"element\": {\n                \"kind\": \"ElementReference\",\n                \"name\": \"my-stat\"\n              }\n            }\n          },\n        ],\n        \"columnWidthMode\": \"standard\",\n        \"maxColumnCount\": 3,\n        \"rowHeightMode\": \"standard\"\n      }\n    },\n    // ...\n  }\n}",
                 "mode": "code"
               },
-              "pluginVersion": "12.1.0-pre"
+              "pluginVersion": "12.0.1"
             }
           }
         }
@@ -344,7 +344,7 @@
                 "content": "\n    \u003cimg src=\"https://raw.githubusercontent.com/grafana/gitsync-example-B/refs/heads/main/images/layoutpanels.png\" /\u003e\n",
                 "mode": "html"
               },
-              "pluginVersion": "12.1.0-pre"
+              "pluginVersion": "12.0.1"
             }
           }
         }
@@ -380,7 +380,7 @@
                 "content": "#\n#\n# Panel structure\n#### An improved syntax to build panels\n\n",
                 "mode": "markdown"
               },
-              "pluginVersion": "12.1.0-pre"
+              "pluginVersion": "12.0.1"
             }
           }
         }
@@ -416,7 +416,7 @@
                 "content": "",
                 "mode": "html"
               },
-              "pluginVersion": "12.1.0-pre"
+              "pluginVersion": "12.0.1"
             }
           }
         }
@@ -452,7 +452,7 @@
                 "content": "{\n  \"kind\": \"Panel\",\n  \"spec\": {\n    \"title\": \"CPU Usage\",\n    \"description\": \"\",\n    \"links\": [],\n    \"data\": {\n      \"kind\": \"QueryGroup\",\n      \"spec\": {\n        \"queries\": [],\n        \"queryOptions\": {},\n        \"transformations\": []\n      }\n    },\n    \"vizConfig\": {\n      \"kind\": \"timeseries\",\n      \"spec\": {\n        \"fieldConfig\": {\n          \"defaults\": {},\n          \"overrides\": []\n        },\n        \"options\": {\n          \"legend\": {\n            \"placement\": \"bottom\",\n            \"showLegend\": true\n          },\n          \"tooltip\": {\n            \"hideZeros\": false,\n            \"mode\": \"single\",\n            \"sort\": \"none\"\n          }\n        }\n      }\n    }\n  }\n}\n",
                 "mode": "code"
               },
-              "pluginVersion": "12.1.0-pre"
+              "pluginVersion": "12.0.1"
             }
           }
         }
@@ -488,7 +488,7 @@
                 "content": "\u003cdiv style=\"display: flex; flex-direction: column; align-items: center; justify-content: center;\"\u003e\n    \u003cdiv\u003e\u003cimg src=\"https://raw.githubusercontent.com/grafana/gitsync-example-B/refs/heads/main/images/panel.png\" /\u003e\u003c/div\u003e\n\u003c/div\u003e",
                 "mode": "html"
               },
-              "pluginVersion": "12.1.0-pre"
+              "pluginVersion": "12.0.1"
             }
           }
         }
@@ -524,7 +524,7 @@
                 "content": "#\n#\n# Queries and portable dashboards\n#### A future-proof model for expressing queries and data source dependency\n\n",
                 "mode": "markdown"
               },
-              "pluginVersion": "12.1.0-pre"
+              "pluginVersion": "12.0.1"
             }
           }
         }
@@ -560,7 +560,7 @@
                 "content": "export interface DataQueryKind {\n\tkind: \"DataQuery\";\n\tgroup: string;\n\tversion: string;\n\tdatasource?: {\n\t\tname?: string;\n\t\tlabels?: Record\u003cstring, string\u003e;\n\t};\n\tspec: Record\u003cstring, any\u003e;\n}",
                 "mode": "code"
               },
-              "pluginVersion": "12.1.0-pre"
+              "pluginVersion": "12.0.1"
             }
           }
         }
@@ -596,7 +596,7 @@
                 "content": "{\n  \"kind\": \"DataQuery\",\n  \"group\": \"prometheus\",\n  \"version\": \"v0\",\n  \"datasource\": {\n    \"name\": \"axHb5\"\n  },\n  \"spec\": {\n    \"expr\": \"http_requests_total{job=\\\"apiserver\\\", handler=\\\"/api/comments\\\"}\"\n  }\n}\n",
                 "mode": "code"
               },
-              "pluginVersion": "12.1.0-pre"
+              "pluginVersion": "12.0.1"
             }
           }
         }
@@ -668,7 +668,7 @@
                 "content": "\u003cdiv style=\"display: flex; flex-grow:1; align-items: center; justify-content: center; height: 200px; 100%; background: #59160B; border-radius: 10px\"\u003e\n  \u003ch2\u003eUnified structure\u003c/h2\u003e\n  \u003c/div\u003e",
                 "mode": "html"
               },
-              "pluginVersion": "12.1.0-pre"
+              "pluginVersion": "12.0.1"
             }
           }
         }
@@ -704,7 +704,7 @@
                 "content": "\u003cdiv style=\"display: flex; flex-grow:1; align-items: center; justify-content: center; height: 200px; 100%; background: #59160B; border-radius: 10px\"\u003e\n  \u003ch2\u003eUntagled complexity\u003c/h2\u003e\n  \u003c/div\u003e",
                 "mode": "html"
               },
-              "pluginVersion": "12.1.0-pre"
+              "pluginVersion": "12.0.1"
             }
           }
         }
@@ -740,7 +740,7 @@
                 "content": "\u003cdiv style=\"display: flex; flex-grow:1; align-items: center; justify-content: center; height: 200px; 100%; background: #59160B; border-radius: 10px\"\u003e\n  \u003ch2\u003eMulitple layout support\u003c/h2\u003e\n  \u003c/div\u003e",
                 "mode": "html"
               },
-              "pluginVersion": "12.1.0-pre"
+              "pluginVersion": "12.0.1"
             }
           }
         }
@@ -776,7 +776,7 @@
                 "content": "\u003cdiv style=\"display: flex; flex-grow:1; align-items: center; justify-content: center; height: 200px; 100%; background: #59160B; border-radius: 10px\"\u003e\n  \u003ch2\u003ePortable dashboard\u003c/h2\u003e\n  \u003c/div\u003e",
                 "mode": "html"
               },
-              "pluginVersion": "12.1.0-pre"
+              "pluginVersion": "12.0.1"
             }
           }
         }
@@ -811,42 +811,6 @@
                 },
                 "content": "\u003ccenter\u003e\u003ca href=\"https://github.com/grafana/gitsync-example-B/tree/main/grafana\" target=\"_blank\"\u003eApp platform resource examples\u003c/a\u003e\u003ccenter\u003e",
                 "mode": "html"
-              },
-              "pluginVersion": "12.1.0-pre"
-            }
-          }
-        }
-      },
-      "panel-37": {
-        "kind": "Panel",
-        "spec": {
-          "data": {
-            "kind": "QueryGroup",
-            "spec": {
-              "queries": [],
-              "queryOptions": {},
-              "transformations": []
-            }
-          },
-          "description": "",
-          "id": 37,
-          "links": [],
-          "title": "",
-          "vizConfig": {
-            "kind": "text",
-            "spec": {
-              "fieldConfig": {
-                "defaults": {},
-                "overrides": []
-              },
-              "options": {
-                "code": {
-                  "language": "plaintext",
-                  "showLineNumbers": false,
-                  "showMiniMap": false
-                },
-                "content": "\u003cbr /\u003e\u003cbr /\u003e\n\u003ch1 style=\"color: #F9A01B!important; font-weight: bold; font-size: 3rem; font-family: monospace;\"\u003egrafanactl\u003c/h1\u003e\u003c/strong\u003e\n\u003cbr /\u003e\n\u003ch2\u003eCommand-line tool designed to simplify interaction with Grafana resources.\u003c/h2\u003e\n\n\u003cbr /\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ch3\u003eManage, edit and create resources directly from the terminal\u003c/h3\u003e\u003c/li\u003e\n\u003cli\u003e\u003ch3\u003eIntegrate with automation\u003c/h3\u003e\u003c/li\u003e\n\u003cli\u003e\u003ch3\u003eWorks with static and programmatically generated resources\u003c/h3\u003e\u003c/li\u003e\n\u003cli\u003e\u003ch3\u003eIterate before deploying\u003c/h3\u003e\u003c/li\u003e\n\u003c/ul\u003e\n",
-                "mode": "markdown"
               },
               "pluginVersion": "12.0.1"
             }
@@ -896,19 +860,6 @@
                                   "width": 16,
                                   "x": 8,
                                   "y": 0
-                                }
-                              },
-                              {
-                                "kind": "GridLayoutItem",
-                                "spec": {
-                                  "element": {
-                                    "kind": "ElementReference",
-                                    "name": "panel-37"
-                                  },
-                                  "height": 20,
-                                  "width": 8,
-                                  "x": 0,
-                                  "y": 21
                                 }
                               }
                             ]
